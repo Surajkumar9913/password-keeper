@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#DBEDF1];
+  }
+
+  @layer components {
+    .mycontainer {
+      @apply container px-40 py-16 mx-auto ;
+    }
+  }
